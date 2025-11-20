@@ -4,6 +4,19 @@
     "slug": "fit-track",
     "version": "0.1.0",
     "sdkVersion": "49.0.0",
-    "platforms": ["ios", "android", "web"]
+    "platforms": ["ios", "android", "web"],
+    "ios": {
+      "bundleIdentifier": "com.krutik24.fittrack",
+      "buildNumber": "1",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.krutik24.fittrack",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    }
   }
 }

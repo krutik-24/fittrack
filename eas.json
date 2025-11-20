@@ -16,6 +16,9 @@
     "production": {
       "android": {
         "buildType": "app-bundle"
+      },
+      "ios": {
+        "bundleIdentifier": "com.krutik24.fittrack"
       }
     }
   },
